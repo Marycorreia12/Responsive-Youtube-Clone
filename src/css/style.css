@@ -1,0 +1,39 @@
+
+@media(max-width: 1330px){
+  #sidebar{
+   display: none;
+   transition: 500ms;
+  }
+
+  .categories{
+    left: 0;
+    width: 100%;
+  }
+
+  .cards{
+    margin-left: 0;
+    width: 100%;
+  }
+
+}
+
+@media(max-width: 660px){
+  #navbar .search{
+    padding: 0 2%;
+  }
+
+  #navbar .search input {
+   visibility: hidden;
+  }
+
+  #navbar .search .search-box{
+    background: none;
+    border: none;
+  }
+    
+  #navbar .search .search-box:hover{
+    background: none;
+  }
+
+}
+
